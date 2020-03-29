@@ -1,0 +1,32 @@
+{
+  "name": "hh-cli",
+  "version": "1.0.0",
+  "description": "微信小程序脚手架",
+  "main": "index.js",
+  "bin": {
+    "hh-cli": "./bin/hh-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hh-cli": "ts-node-dev ./src/hh-cli.ts"
+  },
+  "keywords": [
+    "微信小程序",
+    "微信",
+    "打包"
+  ],
+  "author": "XtLee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.9.5",
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3"
+  }
+}
